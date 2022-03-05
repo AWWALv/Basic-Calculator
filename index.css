@@ -1,0 +1,99 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+}
+section{
+    border: 1px solid transparent;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 5em;
+    border-radius: 25px;
+    box-shadow: 6px 6px 10px grey;
+    background-color:rgb(226, 221, 214);  
+}
+#number1{
+    border-bottom: 2px solid teal;
+    padding: 0em 0.8em;
+    background-color: rgb(231, 226, 220);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#number2{
+    border-bottom: 2px solid teal;
+    padding: 0em 0.5em;
+    background-color: rgb(231, 226, 220);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#number3{
+    border-bottom: 2px solid teal;
+    padding: 0em 0.5em;
+    background-color: rgb(231, 226, 220);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.span-number{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+   
+}
+button{
+    width: 20em;
+    height: 5em;
+    margin: 1em 2em;
+    border-radius: 25px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    color: teal;  
+    font-size: 0.7em;
+    background-color: rgb(231, 226, 220);
+  
+}
+button:hover{
+   transform: scale(1.1);
+}
+.all-buttons{
+    text-align: center;
+    margin-top: 5em;
+   
+}
+#sum-el{
+    display: grid;
+    place-content: center;
+    margin-top: 1em;
+    font-size: 2em;
+    color: teal;
+
+}
+@media screen and (max-width:1390px) {
+    body{
+        display: grid;
+        place-content: center;
+    }
+    section{
+        border: 1px solid transparent;
+        height: 90vh;
+        width: 85vw;
+        margin: 1em 0em;
+        border-radius: 25px;
+        box-shadow: 6px 6px 10px grey;
+        background-color:rgb(226, 221, 214);  
+    }
+    #sum-el{
+        display: grid;
+        place-content: center;
+        margin-top: 1em;
+        font-size: 1.2em;
+        color: teal;
+    }
+    
+
+}
+
